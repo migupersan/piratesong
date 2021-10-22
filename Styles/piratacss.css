@@ -1,0 +1,25 @@
+
+    @font-face {
+        font-family: caligrafia;
+        src: url(../Fonts/pokoljaro/Pokoljaro.otf) }
+    
+    body {margin: 0;
+        padding: 0;
+        background-image: url("../Images/background.jpg");
+    /*Para poner una imagen de fondo, como estamos en la carpeta styles, ponemos ../ para ir a la carpeta anterior*/
+    /*Si quisieramos que se repitiera la imagen, pondriamos "background-repeat" si fuese un patron, y si no lo quisieramos, pondriamos "background-repeat: no-repeat"*/
+        background-size: 78.9%;
+    /*Para modificar el tamaño de la imagen de fondo*/
+    /*Para modificar la posicion se usa "background-possition"*/
+        font-family: caligrafia;
+        font-size: 18px;
+    }
+
+    #container {background-color:rgba(240, 230, 140, 0.801);
+        width: 80%;
+        height: 90vh;
+        border-radius: 7px;
+        margin: 5vh auto;}
+
+    #poema {width: 300px;
+        margin: auto;}

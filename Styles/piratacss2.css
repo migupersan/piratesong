@@ -1,0 +1,24 @@
+@font-face {
+    font-family: caligrafia;
+    src: url(../Fonts/fantaisieartistique/FantaisieArtistique.ttf);
+}
+
+body {font-family: caligrafia;
+    font-size: 1.2em;}
+
+#container {background-image: url(../Images/background2.jpg);
+            background-size:cover; /*cover estira la imagen de fondo*/
+            background-position: 66%; /*3 tercios centrado siempre sera el 66% o 33%*/
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 5vw 5vw 100px #a9a9a9,
+                        -5vw 5vw 100px #a9a9a9,
+                        5vw -5vw 100px #a9a9a9,
+                        -5vw -5vw 100px #a9a9a9;
+            }
+            
+
+#poema {background-color: rgba(169, 169, 169, 0.582);
+        width: 250px;
+        padding: 10px;}
